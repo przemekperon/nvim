@@ -24,8 +24,9 @@ vv - yank (copy) line (2vv - copy 2 lines)
 y$ - Yank (copy) everything from the cursor to the end of the line.
 y^ - Yank (copy) everything from the cursor to the start of the line.
 yw - Yank (copy) to the start of the next word.
-yiw – Yank (copy) the current word.
-y% - Yank (copy) to the matching character. By default supported pairs are (), {}, and []. Useful to copy text between matching brackets.
+yiw – Yank (copy) current word.
+yib - Yank (copy) current block (yab - block with parenthesis included)
+yiB - Yank (copy) current curly braces block
 
 ### Pasting
 
@@ -61,6 +62,16 @@ Space + a - list diagnostics
 ,gc - Git commit --verbose
 ,gsh - Git push
 ,gll - Git pull
+
+### Nerdtree
+
+t - Open the selected file in a new tab
+i - Open the selected file in a horizontal split window
+s - Open the selected file in a vertical split window
+I - Toggle hidden files
+m - Show the NERD Tree menu
+R - Refresh the tree, useful if files change outside of Vim
+? - Toggle NERD Tree's quick help
 
 ### Others
 
