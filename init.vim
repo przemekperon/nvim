@@ -84,6 +84,8 @@ Plug 'xolox/vim-session'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
+"" Github copilot 
+Plug 'github/copilot.vim'
 
 "*****************************************************************************
 "" Custom bundles
@@ -106,6 +108,12 @@ call plug#end()
 
 " Required:
 filetype plugin indent on
+
+
+"
+" Github copilot requires nodejs 17
+"
+ let g:copilot_node_command = "~/.nvm/versions/node/v17.9.1/bin/node"
 
 
 "*****************************************************************************
@@ -459,7 +467,9 @@ let g:coc_global_extensions = [
     \'@yaegassy/coc-volar',
     \'@yaegassy/coc-volar-tools',
     \'coc-flutter',
-    \'coc-css'
+    \'coc-css',
+    \'@yaegassy/coc-phpstan',
+    \'coc-php-cs-fixer'
     \]
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some

@@ -1,7 +1,24 @@
 # My NeoVim configuration file
 
 Installation under Manjaro Linux:
-yay -S watchman-bin neovim nodejs-intelephense sql-language-server ripgrep git-delta bat nerd-fonts-complete
+
+```
+yay -S nvm watchman-bin neovim ripgrep git-delta bat nerd-fonts-complete
+
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+
+ln -s /usr/bin/nvim /usr/bin/vim
+
+source /usr/share/nvm/init-nvm.sh
+
+nvm install 18
+nvm install 17
+nvm use 18
+
+npm i intelephense sql-language-server -g
+
+```
+
 
 Copy init.vim and coc-settings.json into ~/.config/nvim
 
