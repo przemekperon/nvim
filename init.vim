@@ -47,6 +47,8 @@ Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'stsewd/fzf-checkout.vim'
 Plug 'ryanoasis/vim-devicons'
+"Plug 'vigoux/LanguageTool.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Use vim-go because coc go extensions is not enough
 Plug 'fatih/vim-go'

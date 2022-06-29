@@ -3,7 +3,7 @@
 Installation under Manjaro Linux:
 
 ```
-yay -S nvm watchman-bin neovim ripgrep git-delta bat nerd-fonts-complete
+yay -S nvm watchman-bin neovim ripgrep git-delta bat nerd-fonts-complete python-pynvim
 
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 
@@ -25,7 +25,12 @@ Copy init.vim and coc-settings.json into ~/.config/nvim
 Make sure to set Nerd fonts in your terminal app.
 
 
-Start vim and run `:PlugInstall`
+Start vim and run
+
+`:PlugInstall`
+
+`:TSInstall dart go php bash dot json html markdown phpdoc vim vue typescript scss css dockerfile`
+
 
 # Cheatsheet
 
