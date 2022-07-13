@@ -88,6 +88,9 @@ Plug 'honza/vim-snippets'
 "" Github copilot 
 Plug 'github/copilot.vim'
 
+Plug 'yaegassy/coc-blade', {'do': 'npm install --frozen-lockfile'}
+Plug 'jwalton512/vim-blade'
+
 "*****************************************************************************
 "" Custom bundles
 "*****************************************************************************
@@ -238,6 +241,9 @@ let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
 let g:airline_skip_empty_sections = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#coc#enabled = 1
+g:airline#extensions#coc#show_coc_status = 1
 
 "*****************************************************************************
 "" Abbreviations
@@ -623,11 +629,6 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 
 " Add `:OR` command for organize imports of the current buffer.
 command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')
-
-" Add (Neo)Vim's native statusline support.
-" NOTE: Please see `:h coc-status` for integrations with external plugins that
-" provide custom statusline: lightline.vim, vim-airline.
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Mappings for CoCList
 " Show all diagnostics.
