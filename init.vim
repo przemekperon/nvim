@@ -243,7 +243,7 @@ let g:airline#extensions#tagbar#enabled = 1
 let g:airline_skip_empty_sections = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#coc#enabled = 1
-g:airline#extensions#coc#show_coc_status = 1
+let g:airline#extensions#coc#show_coc_status = 1
 
 "*****************************************************************************
 "" Abbreviations
@@ -479,6 +479,9 @@ let g:coc_global_extensions = [
     \'@yaegassy/coc-phpstan',
     \'coc-php-cs-fixer'
     \]
+
+" Support scss with coc-css
+autocmd FileType scss setl iskeyword+=@-@
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim

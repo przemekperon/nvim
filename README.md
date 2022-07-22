@@ -3,7 +3,7 @@
 Installation under Manjaro Linux:
 
 ```
-yay -S nvm watchman-bin neovim ripgrep git-delta bat nerd-fonts-complete python-pynvim
+yay -S nvm watchman-bin neovim ripgrep git-delta bat nerd-fonts-complete python-pynvim ctags
 
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 
