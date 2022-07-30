@@ -117,8 +117,10 @@ filetype plugin indent on
 "
 " Github copilot requires nodejs 17
 "
- let g:copilot_node_command = "~/.nvm/versions/node/v17.9.1/bin/node"
-
+let g:copilot_node_command = "~/.nvm/versions/node/v17.9.1/bin/node"
+" Use Ctrl-J instead of Tab to accept suggestions
+imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
+let g:copilot_no_tab_map = v:true
 
 "*****************************************************************************
 "" Basic Setup
