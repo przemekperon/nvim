@@ -34,6 +34,10 @@ Start vim and run
 
 # Cheatsheet
 
+u - Undo
+Crtl + r - Redo
+
+
 ,e - find file
 ,f - find anywhere
 <F3> - Toggle Nerdtree

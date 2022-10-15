@@ -49,6 +49,7 @@ Plug 'stsewd/fzf-checkout.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+
 " Use vim-go because coc go extensions is not enough
 Plug 'fatih/vim-go'
 
