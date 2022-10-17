@@ -36,13 +36,17 @@ Start vim and run
 
 u - Undo
 Crtl + r - Redo
+,p - Paste
 
+,q ,w - navigate tabs left / right
 
 ,e - find file
 ,f - find anywhere
+-b - search in buffers
 <F3> - Toggle Nerdtree
 <F4> - Toggle Tagbar
 ,rm - delete current file
+
 
 ### Copy
 
