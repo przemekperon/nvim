@@ -49,7 +49,6 @@ Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'stsewd/fzf-checkout.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 
 " Use vim-go because coc go extensions is not enough
 Plug 'fatih/vim-go'
