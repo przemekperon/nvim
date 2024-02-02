@@ -67,9 +67,9 @@ yiB - Yank (copy) current curly braces block
 p - paste after the cursor
 P - Paste before the cursor
 
-### In Visual mode
+### In Visual mode (button: v)
 
-v - start selecting test
+v - start selecting text
 V - start selecting lines
 
 Press y to copy, or d to cut the selection.
