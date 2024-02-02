@@ -9,7 +9,7 @@ else
 endif
 
 let g:vim_bootstrap_langs = "go,html,javascript,php,typescript"
-let g:vim_bootstrap_editor = "nvim"
+let g:vim_bootstrap_editor = "nvim"				" nvim or vim
 let g:vim_bootstrap_theme = "sonokai"
 let g:vim_bootstrap_frams = "vuejs"
 
@@ -50,7 +50,6 @@ Plug 'stsewd/fzf-checkout.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
-
 
 " Use vim-go because coc go extensions is not enough
 Plug 'fatih/vim-go'
@@ -457,7 +456,7 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 "" Open current line on GitHub
-nnoremap <Leader>o :GBrowse<CR>
+nnoremap <Leader>o :.Gbrowse<CR>
 
 "*****************************************************************************
 "" Custom configs
