@@ -20,6 +20,9 @@ npm i intelephense sql-language-server -g
 ```
 
 
+Add license key to YOUR_HOME_DIR/intelephense/licence.txt
+
+
 Copy init.vim and coc-settings.json into ~/.config/nvim
 
 Make sure to set Nerd fonts in your terminal app.
@@ -31,6 +34,7 @@ Start vim and run
 
 `:TSInstall dart go php bash dot json html markdown phpdoc vim vue typescript scss css dockerfile`
 
+`:Codeium Auth`
 
 # Cheatsheet
 

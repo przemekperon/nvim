@@ -33,6 +33,7 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 "" Plug install packages
 "*****************************************************************************
 Plug 'scrooloose/nerdtree'
+Plug 'Exafunction/codeium.vim'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
