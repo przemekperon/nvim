@@ -1,7 +1,4 @@
-```
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+# 💤 LazyVim
 
-```
-
-
-:LspInstall gopls css intelephense docker-compose-language-server html htmx json lua typescript  svelter tailwindcss vls yaml
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
