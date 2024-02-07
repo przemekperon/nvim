@@ -24,3 +24,5 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 :TSInstall php css dart dot dockerfile go html javascript json lua typescript vue svelte scss
 
 :DapInstall php gopls dart
+
+:LazyExtras (enable codeium go tailwind etc.
