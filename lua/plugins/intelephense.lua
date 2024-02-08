@@ -12,6 +12,9 @@ return {
               files = {
                 associations = { "*.php", "*.blade.php" }, -- Associating .blade.php files as well
                 maxSize = 5000000,
+                exclude = {
+    		    "**/adminer.php",
+    		    "**/node_modules/**E
               },
             },
           },
@@ -20,3 +23,4 @@ return {
     },
   },
 }
+E
