@@ -14,7 +14,8 @@ return {
                 maxSize = 5000000,
                 exclude = {
     		    "**/adminer.php",
-    		    "**/node_modules/**E
+    		    "**/node_modules/**"
+    		},
               },
             },
           },
@@ -23,4 +24,3 @@ return {
     },
   },
 }
-E
