@@ -19,7 +19,6 @@ return {
       "intelephense",
       "nginx-language-server",
       "php-debug-adapter",
-      "phpstan",
       "pint",
       "prettierd",
       "gopls",
