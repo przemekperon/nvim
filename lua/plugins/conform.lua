@@ -12,11 +12,11 @@ return {
       },
       ---@type table<string, conform.FormatterUnit[]>
       formatters_by_ft = {
-        lua = { "stylua" },
         fish = { "fish_indent" },
+        go = { "gofumpt", "goimports-reviser" },
         sh = { "shfmt" },
         php = { "pint" },
-        blade = { "blade-formatter", "rustywind" },
+        blade = { "blade-formatter"},
         python = { "black" },
         javascript = { "prettierd" },
       },

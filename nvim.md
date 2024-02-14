@@ -1,4 +1,4 @@
-yay -S ttf-meslo-nerd-font-powerlevel10k ripgrep lazygit bottom fd xplr fish luarocks php-cs-fixer
+yay -S ttf-meslo-nerd-font-powerlevel10k ripgrep lazygit bottom fd xplr fish luarocks php-cs-fixer gofumpt goimports-reviser-bin
 
 
 
