@@ -10,6 +10,7 @@ return {
       "pint",
       "prettierd",
       "gopls",
+      "golangci-lint",
       "shellcheck",
     },
   },
