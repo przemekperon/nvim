@@ -7,6 +7,6 @@ return {
       -- ...
     })
 
-    vim.cmd('colorscheme github_dark_high_contrast') -- other themes:  github_dark, github_dark_default, github_dark_default
+    vim.cmd('colorscheme tokyonight') -- other themes:  github_dark, github_dark_default, github_dark_default
   end,
 }
