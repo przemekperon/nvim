@@ -13,9 +13,9 @@ return {
       ---@type table<string, conform.FormatterUnit[]>
       formatters_by_ft = {
         fish = { "fish_indent" },
-        go = { "gofumpt", "goimports-reviser" },
+        go = { "gofumpt", "goimports-reviser", "golines" },
         sh = { "shfmt" },
-        php = { "pint" },
+        php = { "pint", "phpinsights" },
         blade = { "blade-formatter"},
         python = { "black" },
         javascript = { "prettierd" },
