@@ -15,7 +15,7 @@ return {
         fish = { "fish_indent" },
         go = { "gofumpt", "goimports-reviser", "golines" },
         sh = { "shfmt" },
-        php = { "pint", "phpinsights" },
+        php = { "pint"},
         blade = { "blade-formatter"},
         python = { "black" },
         javascript = { "prettierd" },
