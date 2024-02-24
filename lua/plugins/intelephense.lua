@@ -11,7 +11,7 @@ return {
               filetypes = { "php", "blade" },
               files = {
                 associations = { "*.php", "*.blade.php" }, -- Associating .blade.php files as well
-                maxSize = 5000000,
+                maxSize = 50000000,
                 exclude = {
     		    "**/adminer.php",
     		    "**/node_modules/**"
