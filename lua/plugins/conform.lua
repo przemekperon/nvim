@@ -18,8 +18,8 @@ return {
         php = { "pint"},
         blade = { "blade-formatter"},
         python = { "black" },
-        typescript = { "eslint_d", "prettierd" },
-        javascript = { "eslint_d", "prettierd" },
+        typescript = { "prettierd" },
+        javascript = { "prettierd" },
       },
       -- LazyVim will merge the options you set here with builtin formatters.
       -- You can also define any custom formatters here.

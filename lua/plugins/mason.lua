@@ -14,9 +14,10 @@ return {
       "shellcheck",
       "eslint-lsp",
       "lua-language-server",
-      "tailwindcss",
-      "tsserver",
-      "goimport",
+      "tailwindcss-language-server",
+      "typescript-language-server",
+      "vue-language-server",
+      "goimports",
       "golines",
       "gofumpt"
     },
