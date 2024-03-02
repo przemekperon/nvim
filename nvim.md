@@ -1,6 +1,7 @@
 yay -S ttf-meslo-nerd-font-powerlevel10k ripgrep lazygit bottom fd xplr fish luarocks php-cs-fixer gofumpt goimports-reviser-bin
 
- yarn global add neovim
+yarn global add neovim eslint_d
+
 
 Install wezterm flatpack and set as default terminal
 
