@@ -1,3 +1,3 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-vim.cmd('colorscheme tempus_night')
+vim.cmd('colorscheme tempus_classic')
